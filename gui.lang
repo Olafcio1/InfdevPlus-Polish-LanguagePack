@@ -78,7 +78,7 @@ gui.iconLockConfirmation=Czy na pewno chcesz zablokować ikonkę?
 gui.lockIcon=Po zablokowaniu, ikonka już się nie zmieni. Możesz ją odblokować z powrotem poprzez resetowanie jej.
 gui.credits=Mod zrobiony przez Legacy+ Team
 
-multiplayer.no=Gra w wielu graczy nie jest jeszcze wspierana!
+multiplayer.no=Gra wielo-osobowa nie jest jeszcze wspierana!
 
 menu.singleplayer=światy
 menu.multiplayer=Serwery
