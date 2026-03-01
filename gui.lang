@@ -32,7 +32,7 @@ gui.serverDeletionConfirmation=Czy na pewno chcesz usunąć ten serwer?
 gui.multiplayer=Serwery
 gui.disconnect=Wyjdź z gry
 gui.toMenu=Spowrotem na ekran tytułowy
-gui.searchMP=Szukaj serwery...
+gui.searchMP=Szukaj serwerów...
 
 gui.sort=Sortuj przedmioty
 gui.takeall=Weź wszystko
@@ -41,7 +41,7 @@ gui.close=Zamknij
 gui.reset=Zresetuj
 gui.upgrade=Ulepsz (?) stat
 
-gui.photomode.screenshot=Weź zrzut ekranu
+gui.photomode.screenshot=Zrób zrzut ekranu
 gui.photomode.center=Wyśrodkuj ekran
 gui.photomode.help=Use left-click to pan the screen, right-click to rotate and scroll-wheel to zoom.
 
