@@ -185,7 +185,7 @@ commands.achievement=Wręcza tobie dane osiągnięcie natychmiastowo.
 commands.achievement.error=Niepoprawne osiągnięcie. Upewnij się żeby użyć wewnętrznych nazw z stats.lang!
 commands.achievement.reset.all=Zresetowano wszystkie osiągnięcia!
 commands.achievement.reset=Zresetowano osiągnięcie
-commands.achievement.resets=Resetuje dane osiągnięcie spowrotem do nienabytego stanu.
+commands.achievement.resets=Resetuje dane osiągnięcie z powrotem do nienabytego stanu.
 
 commands.kill=Zabija gracza.
 commands.kill.all=Zabito %d postaci.
