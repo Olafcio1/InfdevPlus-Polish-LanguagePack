@@ -26,7 +26,7 @@ commands.imagine=jest super typem!
 
 commands.chat.clear=Czyści historie czatu
 
-commands.gamemode=Ustawia twój tryb gry na podany tryb.
+commands.gamemode=Zmienia twój tryb gry.
 commands.gamemode.change=Twój tryb gry został zmieniony.
 
 commands.gamerule=Przełącza podaną zasadę gry.
