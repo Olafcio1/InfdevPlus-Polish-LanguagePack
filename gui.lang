@@ -231,7 +231,7 @@ player.durability=Wytrzymałości
 player.armor=Old Armor
 
 desc.sprint=Przełącza możliwość sprintowania.
-desc.hunger=Włącza głód i pokojowe leczenie.
+desc.hunger=Włącza głód i pasywne leczenie.
 desc.atkCooldown=Dodaje czas odnowenia pomiędzy atakami.
 desc.permadeath=Wyłącza możliwość odrodzenia.
 desc.keepInventory=Zatrzymuje przedmioty po śmierci.
