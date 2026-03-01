@@ -1,10 +1,10 @@
 commands.base.unknown=Nieznana Komenda. Użyj /help żeby zobaczyć liste wszystkich dostępnych komend.
-commands.base.noperms=Nie masz pozwolenia do uruchomienia tej komendy.
+commands.base.noperms=Nie masz pozwolenia na uruchomienie tej komendy.
 commands.base.error=Błąd:
 commands.base.error.notenoughargs=Za mało argumentów!
 commands.base.error.invalidbool=Nieprawidłowa wartość boolean
 commands.base.error.invalidnumber=Nieprawidłowa liczba
-commands.base.error.invalidfloat=Nieprawidłowa liczba zmiennio-przecinkowa
+commands.base.error.invalidfloat=Nieprawidłowa liczba zmiennoprzecinkowa
 commands.base.error.invalidid=Nieznany ID bloku!
 commands.base.error.invaliditem=Nieprawidłowy przedmiot!
 commands.base.error.invalidmeta=Nieprawidłowe metadane!
@@ -18,13 +18,13 @@ commands.alias=Alias dla komendy
 
 commands.help=Wyświetla liste wszystkich dostępnych komend.
 commands.help.specific=Wyświetla wszystkie informacje pomocnicze na temat danej komendy.
-commands.help.hint=Wskazówka: Użyj tab żeby auto-dokończać argumenty komend!
+commands.help.hint=Wskazówka: Użyj klawisza tab żeby auto-uzupełnić argumenty komend!
 
-commands.me=Dodaje * do twojej wiadomości (trzecia-osoba)
+commands.me=Dodaje * do twojej wiadomości (trzecia osoba)
 
 commands.imagine=jest super typem!
 
-commands.chat.clear=Czyści historie czatu
+commands.chat.clear=Czyści historię czatu
 
 commands.gamemode=Zmienia twój tryb gry.
 commands.gamemode.change=Twój tryb gry został zmieniony.
@@ -38,40 +38,40 @@ commands.timer=Ustawia TPS licznika gry na podaną wartość.
 commands.timer.invalid=Nieprawidłowa wartość licznika!
 commands.timer.unknown=Nieznany tryb. Użyj albo 'reset' albo 'set'.
 commands.timer.set=Ustaw TPS na
-commands.timer.value=Teraźniejszy TPS to
+commands.timer.value=Obecna wartość TPS to
 commands.timer.reset=Resetuje licznik do standardowej wartości 20 TPS-ów.
 
 commands.difficulty=Przełącza poziom trudności gry
-commands.difficulty.invalid=Podaj trudność gry używając albo numerycznego identyfikatora albo nazwy!
-commands.difficulty.set=Trudność gry ustawiony na
-commands.difficulty.current=Teraźniejsza trudność gry to
+commands.difficulty.invalid=Podaj trudność gry używając albo numerycznego ID albo nazwy!
+commands.difficulty.set=Trudność gry ustawiono na
+commands.difficulty.current=Obecna trudność gry to
 
 commands.seed=Wyświetla ziarno świata i kopiuje je do schowka.
 commands.seed.set=Skopiowano ziarno do schowka
 
-commands.biome=Znajduje najbliższy biom albo strukturę do gracza w podanym dystansie. Domyślny dystans to 1000 bloków.
+commands.biome=Znajduje najbliższy biom albo strukturę do gracza w podanym promieniu. Domyślny promień to 1000 bloków.
 commands.biome.list=Wyświetla wszystkie dostępne biomy i struktury
-commands.biome.attempt=Próbowanie znaleść '%s' w dystansie %d
+commands.biome.attempt=Próbowanie znaleść '%s' w promieniu %d
 commands.biome.find='%s' znaleziony na %dx, %dz
-commands.biome.none='%s' nie znaleziony w dystansie %d
-commands.biome.invalid=Nieprawidłowy biom/nazwa struktury lub dystans!
+commands.biome.none='%s' nie znaleziony w promieniu %d
+commands.biome.invalid=Nieprawidłowy biom/nazwa struktury lub promień!
 
-commands.chunk.info=Wyświetla wszystkie właściwości chunka w którym się znajdujesz.
-commands.chunk.coords=Wyświetla wszystkie właściwości podanego chunka (używa chunk-owych koordynat!).
+commands.chunk.info=Wyświetla wszystkie właściwości chunku w którym się znajdujesz.
+commands.chunk.coords=Wyświetla wszystkie właściwości podanego chunka (używa chunkowych koordynatów!).
 commands.chunk.none=Brak chunku znalezionego na pozycji %dx, %dz
 commands.chunk.pos=Chunk na pozycji: %dx, %dz
 commands.chunk.section=Ilość sekcji: %d sekcji
-commands.chunk.heightmap=Mapa wysokości: %d int-ów
-commands.chunk.percipation=Percipation (co to znaczy?) mapy wysokości: %d int-ów
-commands.chunk.light=Kolumny światłości nieba: %d bit-ów
-commands.chunk.entities=Postacie: %d
-commands.chunk.tileentities=Płytkie postacie: %d
+commands.chunk.heightmap=Mapa wysokości: %d intów
+commands.chunk.percipation=Percipation (co to znaczy?) [może literówka w "precipitation"?] mapa wysokości: %d intów
+commands.chunk.light=Kolumny światła nieba: %d bit-ów
+commands.chunk.entities=Byty: %d
+commands.chunk.tileentities=Bloki-byty: %d
 commands.chunk.loaded=Wczytano: %b
 commands.chunk.modified=Zmodyfikowano: %b
 commands.chunk.rendered=Zrenderowano: %b
 commands.chunk.save=Zapisy: %b
-commands.chunk.decorated=Zdekorowane: %b
-commands.chunk.populated=Zpopulowane: %b
+commands.chunk.decorated=Jest dekorowany: %b
+commands.chunk.populated=:Wypełniony %b
 commands.chunk.savetime=Ostatni czas zapisu: %d
 
 commands.inv.clear=Czyści twój ekwipunek.
@@ -80,13 +80,13 @@ commands.inv.noplayer=Nie odnaleziono gracza.
 commands.inv.cleared=Wyczyszczono ekwipunek %s
 
 commands.give=Daje pełny stack danego przedmiotu.
-commands.give.count=Daje dany przedmiot ze specyficzną ilością.
-commands.give.metadata=Daje dany przedmiot ze specyficznymi metadanymi i ilością.
-commands.give.full=Daje dany przedmiot z metadanymi i o ilością.
-commands.give.player=Daje zaznaczonemu graczowi podany przedmiot.
+commands.give.count=Daje dany przedmiot w podanej ilości.
+commands.give.metadata=Daje dany przedmiot z podanymi metadanymi i ilością.
+commands.give.full=Daje dany przedmiot z metadanymi i o ilością [w tym jest jakis błąd po angielsku, nie wiem o co chodzi].
+commands.give.player=Daje wybranemu graczowi podany przedmiot.
 commands.give.player.full=Daje zaznaczonemu graczowi podany przedmiot z metadanymi.
-commands.give.error=Nie ma przedmiotu z identyfikatorem
-commands.give.success=Dawanie %s %d do %d:%d.
+commands.give.error=Nie ma przedmiotu z ID
+commands.give.success=Dawanie %s %d %d:%d.
 
 commands.replaceitem=Zamienia dany slot ekwipunku z danym przedmiotem.
 commands.replaceitem.player=Zamienia dany slot ekwipunku danego gracza z danym przedmiotem.
@@ -95,11 +95,11 @@ commands.item.replace=Zamieniono przedmiot w slocie %d z %d o ilości %d.
 commands.effect=Aplikuje dany efekt do gracza uruchamiającego komendę.
 commands.effect.player=Aplikuje dany efekt do danego gracza.
 commands.effect.clear=Czyści wszystkie efekty gracza uruchamiającego komendę.
-commands.effect.clear.player=Czyści wszystkie efekty danego gracza.
+commands.effect.clear.player=Usuwa wszystkie efekty danego gracza.
 commands.effect.error.id=Nieprawidłowy ID efektu!
 commands.effect.apply=Aplikowano %s dla gracza %s z %d ticków.
-commands.effect.clear.all=Wyczyszczono wszystkie przedmioty od
-commands.effect.list=Wyświetla wszystkie wewnętrzne nazwy efektów używalne z komendą.
+commands.effect.clear.all=Usunięto wszytskie efekty z
+commands.effect.list=Wyświetla wszystkie wewnętrzne nazwy efektów do użytku z komendą.
 
 commands.enchant=Applies the specified enchant to your currently held item.
 commands.enchant.success=Successfully enchanted held item with %s %d
@@ -120,12 +120,12 @@ commands.weather.freeze=Wyłączono zmiany pogody.
 commands.weather.unfreeze=Włączono zmiany pogody.
 commands.weather.rain=Deszcz włączony
 commands.weather.thunder=Burza włączona
-commands.weather.clear=Czyści pogodę.
+commands.weather.clear=Zatrzymano efekty pogodowe.
 commands.weather.error=Nieznany tryb. Oczekiwano rain, thunder, clear, freeze lub unfreeze!
 
-commands.time=Dodaje albo zmienia czas w teraźniejszym świecie.
+commands.time=Zwiększa albo zmienia czas w obecnym świecie.
 commands.time.state=Ustawia permanentny dzień na on/off.
-commands.time.exact=Ustawia czas na jeden z predefiniowanych wartości.
+commands.time.exact=Ustawia czas na jedną z predefiniowanych wartości.
 commands.time.error=Nieznany tryb. Użyj add, set, freeze lub unfreeze.
 commands.time.add=Dodano %d do czasu.
 commands.time.set=Ustawiono czas na %d.
@@ -139,13 +139,13 @@ commands.time.noon=Ustawiono czas na południe.
 commands.time.dawn=Ustawiono czas na świt.
 commands.time.dusk=Ustawiono czas na zmierzch.
 
-commands.world.info=Wyświetla informacje o teraźniejszym świecie.
+commands.world.info=Wyświetla informacje o obecnym świecie.
 commands.world.name=Nazwa świata
 commands.world.seed=Ziarno świata
 commands.world.spawn=World spawn point: %dx, %dy, %dz
 commands.world.height=Wysokość świata
 commands.world.type=Typ świata
-commands.world.dimension=Rodzaj świata
+commands.world.dimension=Obecny wymiar
 commands.world.gamemode=Tryb gry świata
 commands.world.difficulty=Trudność gry świata
 commands.world.cheats=Komendy włączone
@@ -167,19 +167,19 @@ commands.world.infinite=nieskończoność
 commands.home=Powraca Ciebie na spawn świata.
 commands.home.return=Powrócono na spawn
 commands.home.player=Powrócono %s na spawn.
-commands.home.extra=Powraca danego gracza na spawn świata.
+commands.home.extra=Przenosi danego gracza na spawn świata.
 
-commands.setspawn=Ustawia zaznaczoną pozycję jako twój punkt odradzania. Zostaw puste żeby użyć teraźniejszej pozycji.
-commands.spawn.set=Ustawiono pozycję odradzania gracza na %dx, %dy, %dz.
-commands.setspawn.extra=Ustawia pozycję punktu odradzania danego gracza.
+commands.setspawn=Ustawia zaznaczoną pozycję jako twój punkt odradzania. Zostaw puste żeby użyć obecnej pozycji.
+commands.spawn.set=Ustawiono punkt odradzania gracza na %dx, %dy, %dz.
+commands.setspawn.extra=Ustawia punkt odradzania danego gracza.
 
 commands.worldspawn=Ustawia zaznaczoną pozycję jako punkt odradzania świata. Zostaw puste żeby użyć teraźniejszej pozycji.
 commands.world.setspawn=Ustawia pozycję punktu odradzania świata na %dx, %dy, %dz.
 
-commands.sound=Puszcza dany dźwięk.
-commands.sound.loc=Puszcza dany dźwięk na danych koordynatach.
-commands.sound.full=Puszcza dany dźwięk ze zmienialną głośnością i wysokością dźwięku.
-commands.sound.play=Puszczono %s na %.1fx, %.1fy, %.1fz o głośności %.1f i wysokości dźwięku %.1f.
+commands.sound=Odtwarza dany dźwięk.
+commands.sound.loc=Odtwarza dany dźwięk na danych koordynatach.
+commands.sound.full=Odtwarza dany dźwięk ze zmienialną głośnością i wysokością dźwięku.
+commands.sound.play=Odtworzono %s na %.1fx, %.1fy, %.1fz o głośności %.1f i wysokości %.1f.
 
 commands.achievement=Wręcza tobie dane osiągnięcie natychmiastowo.
 commands.achievement.error=Niepoprawne osiągnięcie. Upewnij się żeby użyć wewnętrznych nazw z stats.lang!
@@ -188,26 +188,26 @@ commands.achievement.reset=Zresetowano osiągnięcie
 commands.achievement.resets=Resetuje dane osiągnięcie z powrotem do nienabytego stanu.
 
 commands.kill=Zabija gracza.
-commands.kill.all=Zabito %d postaci.
+commands.kill.all=Zabito %d bytów.
 commands.kill.all.specific=Zabito wszystkie instancje %s
-commands.kill.extra=Zabije wszystkie postacie oprócz graczy.
-commands.kill.specific=Zabija wszystkie instancje danej postaci (użyj nazw postaci).
+commands.kill.extra=Zabija wszystkie byty oprócz graczy.
+commands.kill.specific=Zabija wszystkie instancje danego bytu (użyj nazw bytów).
 commands.kill.player=Zabija danego gracza
 commands.kill.direct=Zabito
 
-commands.count=Liczy wszystkie postacie danego typu w otaczającym terenie.
-commands.count.success=Naliczono %d postaci %s.
+commands.count=Liczy wszystkie byty danego typu w pobliżu.
+commands.count.success=Naliczono %d bytów %s.
 
-commands.particle=Przywołuje cząstke na pozycji gracza.
-commands.particle.loc=Przywołuje cząstke na danej pozycji.
+commands.particle=Przywołuje cząstkę na pozycji gracza.
+commands.particle.loc=Przywołuje cząstkę na danej pozycji.
 commands.particle.count=Przywołuje daną ilość cząstek na pozycji.
-commands.particle.spawn=Przywołano cząstke '%s' na %.2fx, %.2fy, %.2fz.
+commands.particle.spawn=Przywołano cząstkę '%s' na %.2fx, %.2fy, %.2fz.
 commands.particle.error=Niepoprawna cząstka!
 commands.particle.list=Wyświetla wszystkie dostępne cząstki.
 
 commands.score=Zmienia twoją wartość wyniku.
 commands.score.player=Zmienia wynik danego gracza.
-commands.score.amount=Ustawia twój wynik na daną ilość.
+commands.score.amount=Ustawia twój wynik na daną wartość.
 commands.score.add=Dodano %d punktów do wyniku %s
 commands.score.remove=Usunięto %d punktów z wyniku %s.
 commands.score.set=Ustawiono wynik %s na %d.
@@ -223,13 +223,13 @@ commands.setspeed.y=Ustawiono mnożnik prędkości poruszania dla osi Y na: %f
 commands.setspeed.z=Ustawiono mnożnik prędkości poruszania dla osi Z na: %f
 commands.setspeed.all=Ustawiono mnożniki prędkości poruszania dla wszystkich osi na: %f
 
-commands.summon=Przywołuje postać danego typu. Nazwa rozróźnia wielkość liter i musi być dokładna!
-commands.summon.pos=Przywołuje postać danego typu na danej pozycji.
-commands.summon.unknown=Nieznany ID postaci
-commands.summon.invalid=Postać nie dozwolona!
+commands.summon=Przywołuje byt danego typu. Nazwa rozróźnia wielkość liter i musi być dokładna!
+commands.summon.pos=Przywołuje byt danego typu na danej pozycji.
+commands.summon.unknown=Nieznany ID bytu
+commands.summon.invalid=Byt niedozwolony!
 commands.summon.success=Przywołano nowy %s na %.2fx, %.2fy, %.2fz.
-commands.summon.list=Lista prawidłowych postaci
-commands.summon.lists=Wyświetla wszystkie prawidłowe postacie jakie mogą zostać przywołane.
+commands.summon.list=Lista prawidłowych bytów
+commands.summon.lists=Wyświetla wszystkie prawidłowe byty jakie mogą zostać przywołane.
 
 commands.teleport=Teleportuje Ciebie na dane koordynaty.
 commands.teleport.player=Teleportuje gracza 1 do gracza 2.
@@ -237,12 +237,12 @@ commands.teleport.player.loc=Teleportuje danego gracza na dane koordynaty.
 commands.teleport.error=Błąd składni, podaj prawidłowe koordynaty albo nazwe gracza.
 commands.teleport.error.coords=Nieprawidłowe koordynaty!
 commands.teleport.error.user=Nie udało się znaleść gracza
-commands.teleport.error.dimension=Gracze są w innych światach!
-commands.teleport.coords=Teleportowanie %s na %.2fx, %.2fy, %.2fz.
+commands.teleport.error.dimension=Gracze są w innych wymiarach!
+commands.teleport.coords=Teleportowanie %s do %.2fx, %.2fy, %.2fz.
 commands.teleport.players=Teleportowanie %s do %s.
 
-commands.dimension=Teleportuje Ciebie do innego świata natychmiastowo.
-commands.dimension.error=Nieznany świat! Użyj 0 (overworld), 1 (crimson), 2 (astral) lub 3 (void)!
+commands.dimension=Teleportuje Ciebie do innego wymiaru natychmiastowo.
+commands.dimension.error=Nieznany wymiar! Użyj 0 (overworld), 1 (crimson), 2 (astral) lub 3 (void)!
 
 commands.event=Ustawia wydarzenie teraźniejszego świata.
 commands.event.clear=Wyczyszczono wszystkie trwające wydarzenia świata!
@@ -253,16 +253,16 @@ commands.event.error=Nieznane wydarzenie!
 commands.sleeptimer=Resetuje czas przez który gracz nie może spać.
 commands.sleep.reset=Czujesz się bardzo zmęczony...
 
-commands.setblock=Kładzie blok na danych koordynatach. Wyłącznie ID-ki!
+commands.setblock=Kładzie blok na danych koordynatach. Wyłącznie ID!
 commands.block.set=Położono %d:%d na %dx, %dy, %dz.
-commands.setblock.error=Nieprawidłowy identyfikator/metadane bloku!
+commands.setblock.error=Nieprawidłowy ID/metadane bloku!
 
 commands.worldedit.error=Ustaw punkty najpierw używając /point <x> <y> <z> <start | end>!
 
-commands.clear=Czyści aktywny teren bloków.
+commands.clear=Czyści aktywny obszar bloków.
 commands.clear.blocks=bloki wyczyszczone.
 
-commands.copy=Kopiuje aktywny teren do schowka.
+commands.copy=Kopiuje aktywny obszar do schowka.
 commands.copy.blocks=bloki skopiowane do schowka.
 
 commands.cut=Kopiuje i usuwa aktywny teren do schowka.
@@ -277,26 +277,26 @@ commands.undo.success=Cofnięto zmiany do
 
 commands.rotate=Obrócono zaznaczenie (nie)zgodnie-ze-wskazówkami-zegara wokół osi Y.
 
-commands.corner=Ustawia kąty startowe/kończące dla aktywnego terenu WorldEdit.
+commands.corner=Ustawia kąty startowe/kończące dla aktywnego obszaru WorldEdit.
 commands.corner.error=Brak bloków w zakresie!
 commands.corner.end.set=Drugi punkt ustawiony na %dx, %dy, %dz.
 commands.corner.start.set=Pierwszy punkt ustawiony na %dx, %dy, %dz.
 commands.corner.invalid=Nieprawidłowy tryb! Użyj 'start' lub 'end'!
 
-commands.replace=Zamienia dany blok w zaznaczonym terenie.
+commands.replace=Zamienia dany blok na zaznaczonym obszarze.
 
-commands.fill=Wypełnia zaznaczony teren danym blokiem.
+commands.fill=Wypełnia zaznaczony obszar danym blokiem.
 commands.fill.blocks=bloki wypełnione.
 
-commands.export=Eksportuje teraźniejszy teren używając eksportera.
+commands.export=Eksportuje obecny obszar używając eksportera.
 commands.export.list=Wyświetla wszystkie dostępny eksportery.
 commands.export.error=Nieznany eksporter
-commands.export.attempt=Próbowanie wyeksportować..
+commands.export.attempt=Próba eksportu..
 commands.export.success=%d bloków wyeksportowanych do %s używając eksportera %s
-commands.export.fail=Eksport nieudany, sprawdź konsole dla więcej informacji
-commands.export.help=Wyświetla informacje o zaznaczonym eksporterze.
+commands.export.fail=Eksport nieudany, sprawdź konsole aby uzyskać więcej informacji
+commands.export.help=Wyświetla informacje o wybranym eksporterze.
 commands.export.raw=Brak dodatkowych parameterów dla tego eksportera.
-commands.export.columns=Eksportuje column-first ordered surową array. Kompatybilne z dynamicznymi schematami lub funkcjami bezpośrednio bazowanymi na schematach. Dodawanie parametru "rotations" generuje 4 obróconych list. Nic nie g eneruje bezpośredniej kopii. Każdy przedmiot listy to id|(meta << 12).
-commands.export.schematic=Eksportuje teren w formacie .schematic. Brak dodatkowych parameterów dla tego eksporteru.
+commands.export.columns=Eksportuje column-first ordered surową array. Kompatybilne z dynamicznymi schematami lub funkcjami bezpośrednio opartymi na schematach. Dodawanie parametru "rotations" generuje 4 obrócone listy. Brak parametrów generuje bezpośrednią kopię. Każdy przedmiot listy to id|(meta << 12).
+commands.export.schematic=Eksportuje teren w formacie .schematic. Brak dodatkowych parameterów dla tego eksportera.
 
-commands.wand=Daje ci różdżkę do ustawiania kątów WorldEdit.
+commands.wand=Daje ci różdżkę do ustawiania rogów WorldEdit.
