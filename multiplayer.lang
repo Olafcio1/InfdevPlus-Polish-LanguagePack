@@ -1,0 +1,46 @@
+selectServer.title=Wybierz Serwer
+selectServer.empty=pusty
+selectServer.select=Dołącz na serwer
+selectServer.direct=Bezpośrednie łączenie
+selectServer.edit=Edytuj
+selectServer.delete=Usuń
+selectServer.add=Dodaj serwer
+selectServer.defaultName=Serwer Minecraft
+selectServer.deleteQuestion=Czy na pewno chcesz usunąć ten serwer?
+selectServer.deleteWarning=zostanie stracony na zawsze!
+selectServer.deleteButton=Usuń
+selectServer.refresh=Odśwież
+addServer.title=Edytuj informacje serwera
+addServer.enterName=Nazwa Serwera
+addServer.enterIp=Adres Serwera
+addServer.add=Ukończ
+
+multiplayer.title=Serwery
+multiplayer.connect=Połącz
+multiplayer.warning=UWAGA:
+multiplayer.info1=Multiplayer jest w bardzo wczesnych etapach rozwoju
+multiplayer.info2=więc zawiera dużo błędów.
+multiplayer.info3=Więc nie oczekuj żeby był skończony wkrótce.
+multiplayer.ipinfo=Podaj adres IP serwera do którego chcesz się podłączyć:
+multiplayer.downloadingTerrain=Pobieranie terenu
+multiplayer.stopSleeping=Opuść Łóżko
+
+chat.link.confirm=Czy na pewno chcesz otworzyć następujący adres URL?
+chat.link.warning=Nigdy nie otwieraj linków od osób którym nie ufasz!
+chat.copy=Skopiuj do schowka
+
+connect.connecting=Łączenie do %1$s...
+connect.authorizing=Logowanie się...
+connect.failed=Nie udało się łączenie z serwerem
+
+disconnect.genericReason=%s
+disconnect.disconnected=Rozłączono przez serwer
+disconnect.lost=Utracono połączenie
+disconnect.kicked=Został wyrzucony z gry
+disconnect.timeout=Czas minął
+disconnect.closed=Połączenie zamknięte
+disconnect.loginFailed=Nieudane logowanie
+disconnect.loginFailedInfo=Nieudane logowanie: %s
+disconnect.quitting=Rozłączanie
+disconnect.endOfStream=Koniec transmisji
+disconnect.overflow=Przepełnienie buforu

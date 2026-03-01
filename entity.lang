@@ -1,0 +1,29 @@
+entity.Arrow.name=Strzała
+entity.Item.name=Przedmiot
+entity.Painting.name=Obraz
+entity.ItemFrame.name=Ramka na przedmiot
+entity.PrimedTnt.name=Blok TNT
+entity.FallingSand.name=Spadający Blok
+entity.Minecart.name=Wózek
+entity.Boat.name=Łódka
+
+entity.Monster.name=Potwór
+entity.Creeper.name=Creeper
+entity.Skeleton.name=Szkielet
+entity.Spider.name=Pająk
+entity.Giant.name=Gigant
+entity.Zombie.name=Zombie
+entity.Slime.name=Szlam
+entity.Spectre.name=Widmo
+
+entity.Mob.name=Mob
+entity.Pig.name=Świnia
+entity.Sheep.name=Owca
+entity.Cow.name=Krowa
+entity.Chicken.name=Kura
+
+entity.null.name=nieznana
+
+death.generic=%1$s umarł
+death.target=%1$s zabił %2$s
+death.entity=%1$s został zabity przez %2$s
