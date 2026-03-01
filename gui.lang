@@ -238,7 +238,7 @@ desc.keepInventory=Zatrzymuje przedmioty po śmierci.
 desc.sleep=Wyłącza możliwość pomijania czasu poprzez spanie.
 desc.graves=Gracze wyrzucają groby zawierające ich ekwipunki po śmierci.
 desc.durability=Wytrzymałość narzędzi nie obniży się jeśli jest wyłączona.
-desc.armor=Ochrona zbroji zależy od wytrzymałością.
+desc.armor=Ochrona zbroi zależy od wytrzymałością.
 
 death.inFire=%s spłonął.
 death.onFire=%s spłonął.
