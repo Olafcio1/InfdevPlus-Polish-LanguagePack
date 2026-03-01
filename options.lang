@@ -3,34 +3,34 @@ minecraft.version=
 options.off=Off
 options.on=On
 
-options.fast=Fast
-options.fancy=Fancy
-options.fabulous=Fabulous
+options.fast=Szybka
+options.fancy=Ładna
+options.fabulous=Wspaniała
 
-options.hold=Hold
-options.toggle=Toggle
+options.hold=Przytrzymaj
+options.toggle=Przełącz
 
-options.classic=Classic
-options.alpha=Modern
+options.classic=Klasyczne
+options.alpha=Nowoczesne
 
-options.all=All
-options.minimal=Minimal
-options.none=None
+options.all=Wszystko
+options.minimal=Minimalne
+options.none=Brak
 
-options.title=General
+options.title=Ogólne
 options.controls=Controls
-options.video=Graphics
+options.video=Grafika
 options.audio=Audio
 
 options.invert=Invert Mouse
 options.scroll=Scroll Invert
-options.texturepacks=Packs
+options.texturepacks=Paczki
 
 options.fov=FOV
-options.fov.min=Normal
+options.fov.min=Normalne
 options.fov.max=Quake Pro
 
-options.gamma=Brightness
+options.gamma=Jasność
 options.gamma.min=Moody
 options.gamma.max=Bright
 
@@ -39,86 +39,86 @@ options.sensitivity.min=*yawn*
 options.sensitivity.max=HYPERSPEED!!!
 
 options.renderDistance=Render Distance
-options.renderDistance.tiny=Tiny
-options.renderDistance.short=Short
-options.renderDistance.normal=Normal
-options.renderDistance.far=Far
-options.renderDistance.veryFar=Extreme
+options.renderDistance.tiny=Mały
+options.renderDistance.short=Krótki
+options.renderDistance.normal=Normalny
+options.renderDistance.far=Daleki
+options.renderDistance.veryFar=Ekstremalny
 
-options.difficulty=Difficulty
-options.difficulty.peaceful=Peaceful
-options.difficulty.easy=Easy
-options.difficulty.normal=Normal
-options.difficulty.hard=Hard
+options.difficulty=Trudność gry
+options.difficulty.peaceful=Pokojowa
+options.difficulty.easy=Łatwa
+options.difficulty.normal=Normalna
+options.difficulty.hard=Trudna
 options.difficulty.hardcore=Hardcore
 
-options.guiScale=GUI Scale
+options.guiScale=Skala interfejsu
 options.guiScale.auto=Auto
-options.guiScale.tiny=Tiny
-options.guiScale.small=Small
-options.guiScale.normal=Normal
-options.guiScale.large=Large
+options.guiScale.tiny=Ultra-mały
+options.guiScale.small=Mały
+options.guiScale.normal=Normalny
+options.guiScale.large=Duży
 
 options.skybox=Skybox
 options.skybox.default=Biome
 options.skybox.original=Original
 options.skybox.classic=Classic
 
-options.view=Camera Modes
-options.view.thirdperson=Two
-options.view.frontfacing=Three
-options.view.all=All
+options.view=Tryby kamery
+options.view.thirdperson=Druga-osoba
+options.view.frontfacing=Trzecia-osoba
+options.view.all=Wszystkie
 
 options.bobbing=View Bobbing
 options.ao=Smooth Lighting
 options.lighting=Dynamic Lighting
 options.anim=Arm Animation
-options.arm=First Person
+options.arm=Pierwsza Osoba
 options.sneak=Sneak Mode
 options.pickup=Show Pickups
 options.fullscr=Fullscreen
 options.vsync=VSync
-options.items=Items
-options.scale=GUI Scale
-options.effects=Effects
-options.clouds=Clouds
-options.leaves=Leaves
-options.particle=Particle style
+options.items=Przedmioty
+options.scale=Skala interfejsu
+options.effects=Efekty
+options.clouds=Chmury
+options.leaves=Liście
+options.particle=Styl cząstek
 options.particles=Particles
-options.chunks=Chunks
+options.chunks=Chunki
 options.outline=Block Highlight
-options.mipmapping=Mipmapping
+options.mipmapping=Mipmapa
 options.offsets=Vertex Offset
-options.animations=Animations
-options.shadows=Entity Shadows
-options.textures=Texture Packs
-options.darkMode=Dark Mode
-options.guiStyle=Menu Style
+options.animations=Animacje
+options.shadows=Cienie postaci
+options.textures=Paczki tekstur
+options.darkMode=Tryb ciemny
+options.guiStyle=Styl menu
 options.torchFlicker=Torch Flicker
-options.fovEffects=FOV Effects
-options.cursor=Custom Cursor
-options.textureRotation=Texture Rotation
+options.fovEffects=Efekty FOV
+options.cursor=Niestandardowy kursor
+options.textureRotation=Obrót tekstur
 options.advOpenGL=Chunk Culling
-options.stars=Stars
+options.stars=Gwiazdy
 options.fog=Fog
 
-options.music=Music
-options.sound=Sound
+options.music=Muzyka
+options.sound=Dźwięk
 options.master=Master
 options.ambience=Ambience
-options.mobs=Mobs
+options.mobs=Moby
 options.jukebox=Jukebox
-options.blocks=Blocks
+options.blocks=Bloki
 options.packFolder=Folder
-options.languages=Languages
+options.languages=Języki
 options.entityDistance=Simulation Distance
 options.blur=Blur Amount
 options.entity=Entity Distance
 
-options.movement=Movement
-options.gameplay=Gameplay
-options.inventory=Inventory
-options.misc=General
+options.movement=Ruch
+options.gameplay=Rozgrywka
+options.inventory=Ekwipunek
+options.misc=Ogólne
 options.debug=Debug
 
 desc.invert=Inverts the mouse's Y axis. 
