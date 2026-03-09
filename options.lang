@@ -31,12 +31,12 @@ options.fov.min=Normalne
 options.fov.max=Quake Pro
 
 options.gamma=Jasność
-options.gamma.min=Moody
-options.gamma.max=Bright
+options.gamma.min=Ciemno
+options.gamma.max=Jasno
 
-options.sensitivity=Sensitivity
-options.sensitivity.min=*yawn*
-options.sensitivity.max=HYPERSPEED!!!
+options.sensitivity=Szybkość myszy
+options.sensitivity.min=*ziew*
+options.sensitivity.max=HIPERSZYBKOŚĆ!!!
 
 options.renderDistance=Render Distance
 options.renderDistance.tiny=Mały
