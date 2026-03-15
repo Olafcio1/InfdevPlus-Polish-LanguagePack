@@ -31,7 +31,7 @@ gui.serverDeletion=zostanie usunięte
 gui.serverDeletionConfirmation=Czy na pewno chcesz usunąć ten serwer?
 gui.multiplayer=Serwery
 gui.disconnect=Wyjdź z gry
-gui.toMenu=Spowrotem na ekran tytułowy
+gui.toMenu=Z powrotem na ekran tytułowy
 gui.searchMP=Szukaj serwerów...
 
 gui.sort=Sortuj przedmioty
@@ -78,7 +78,7 @@ gui.iconLockConfirmation=Czy na pewno chcesz zablokować ikonkę?
 gui.lockIcon=Po zablokowaniu, ikonka już się nie zmieni. Możesz ją odblokować z powrotem poprzez resetowanie jej.
 gui.credits=Mod zrobiony przez Legacy+ Team
 
-multiplayer.no=Gra wielo-osobowa nie jest jeszcze wspierana!
+multiplayer.no=Gra wieloosobowa nie jest jeszcze wspierana!
 
 menu.singleplayer=światy
 menu.multiplayer=Serwery
@@ -99,7 +99,7 @@ menu.painting.select=Wybierz
 menu.painting.random=Losowy
 menu.painting.next=Następny
 menu.painting.prev=Poprzedni
-gui.painting.no=Nie wystarczająco miejsca!
+gui.painting.no=Niewystarczająco dużo miejsca!
 
 menu.gamemode=Wybierz tryb gry
 menu.creative=Kreatywny
@@ -120,7 +120,7 @@ potion.digSpeed=Szybkie kopanie
 potion.slowFall=Wolne opadanie
 potion.stamina=Stamina
 potion.resistance=Odporność
-potion.poison=Trucizna
+potion.poison=Zatrucie
 potion.moveSlowdown=Spowolnienie
 potion.weakness=Bezsilość
 potion.harm=Natychmiastowe obrażenia
@@ -132,7 +132,7 @@ potion.fatigue=Zmęczenie
 potion.absorption=Absorpcja
 potion.levitation=Lewitacja
 potion.fragility=Słabość
-potion.nausea=Saturacja
+potion.nausea=Nasycenie
 potion.wither=Withering
 potion.hunger=Głód
 potion.luck=Szczęście
